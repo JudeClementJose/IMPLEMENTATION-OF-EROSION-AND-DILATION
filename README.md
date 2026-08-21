@@ -79,7 +79,7 @@ image = np.zeros((500, 500, 3), dtype=np.uint8)
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, 'HELLO Jude', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 ```
-<img width="1168" height="854" alt="image" src="https://github.com/user-attachments/assets/b61ebf1a-7ce6-45f0-aca0-d5c49e842abc" />
+<img width="737" height="953" alt="image" src="https://github.com/user-attachments/assets/e6a791b0-275f-4e4c-b290-b5b9d6abe6c5" />
 
 ```python
 # Display the input image
@@ -87,7 +87,7 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for dis
 plt.title("Input Image with Text")
 plt.axis('off')
 ```
-<img width="1003" height="556" alt="image" src="https://github.com/user-attachments/assets/bef5b17e-eb48-4bac-aab3-0842c39f7829" />
+<img width="464" height="466" alt="image" src="https://github.com/user-attachments/assets/6a366781-8032-4a0f-b67c-7b79cc700e95" />
 
 ```python
 # Create a simple square kernel (3x3)
@@ -99,7 +99,7 @@ plt.imshow(cv2.cvtColor(eroded_image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB
 plt.title("Eroded Image")
 plt.axis('off')
 ```
-<img width="994" height="559" alt="image" src="https://github.com/user-attachments/assets/caa665f4-ecfc-4a2d-81d5-e019bae2f2fb" />
+<img width="493" height="464" alt="image" src="https://github.com/user-attachments/assets/2c15de83-0b60-41a5-949b-22672f54fc39" />
 
 ```python
 # Apply dilation (expanding effect)
@@ -109,7 +109,7 @@ plt.imshow(cv2.cvtColor(dilated_image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB
 plt.title("Dilated Image")
 plt.axis('off')
 ```
-<img width="997" height="556" alt="image" src="https://github.com/user-attachments/assets/dc31a6fe-e440-4724-9059-ed95ab3c8ac9" />
+<img width="449" height="458" alt="image" src="https://github.com/user-attachments/assets/16a9e351-7c6b-4b48-97c5-e833b070ebc5" />
 
 
 ## Result
